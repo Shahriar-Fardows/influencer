@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* =============================
+           header style start
+================================ */
+
+header {
+  background-color: #fff;
+  padding: 2.438rem 20.5rem;
+}
+header > nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo h1 {
+  width: 243px;
+  height: 52.2px;
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.menu ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 2.125rem;
+  text-align: center;
+}
+
+
+/* ================header section style=============== */
+
+
+.head-body {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 5.125rem; */
+}
+.info1{
+    margin-top: 9.063rem;
+}
+.info1 h1 {
+  width: 582px;
+  height: 133px;
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 134.615% */
+}
+.info1 p {
+  width: 505px;
+  height: 60.9px;
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 1rem0px;
+}
+.info1 button {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 41px;
+  background: #e02c6d;
+}
+.if{
+    margin-left: 8px;
+}
+
+.camera{
+    margin-top: 3.5rem;
+}
+.camera img{
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}

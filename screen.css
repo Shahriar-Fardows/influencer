@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 575.98px) {
+  /*============== header style ========*/
+  header {
+    padding: 2.5rem 2.438rem;
+  }
+  header > nav {
+    flex-wrap: wrap;
+  }
+  .menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .menu ul li {
+    margin: 1rem;
+  }
+
+  /* ================header section style=============== */
+
+  .head-body {
+    flex-direction: column-reverse;
+    
+  }
+
+  .info1 {
+  }
+  .info1 h1 {
+    width: 309px;
+    height: 78px;
+    color: #3a3a3a;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .info1 p {
+    margin: 30px 0px;
+    width: 291px;
+    height: 65px;
+    color: #3a3a3a;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .info1 button{
+    margin: 0px 55px;
+  }
+  .camera {
+    width: 235px;
+    height: 257px;
+  }
+
+  .camera img {
+    width: 300px;
+   
+  }
+}
